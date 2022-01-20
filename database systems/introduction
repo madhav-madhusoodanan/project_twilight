@@ -1,0 +1,21 @@
+1. Databases should follow ACID
+	a. Atomic
+	b. Consistency
+	c. Isolation -> only the user
+	d. Durability -> Any stored data must be protected from failures
+	
+2. Database is a collection of related data
+	Data: is recorded facts with meaning
+	Metadata: data about data (time of creation, size of data, etc etc)
+	
+3. Database Management System is a software package designed to store and manage large databases with complex features and relations
+
+4. The goal is to store and retrieve database information conveniently and efficiently
+
+5. Database is a very large integrated collection of structured data
+
+6. They model real world entities
+
+(Problem stating: Create a file-handling based program to store semester grades in files and ask a menu driven program of a particular student and semester, and show the particular cg)
+
+7. Database system is the DB software together with the data itself

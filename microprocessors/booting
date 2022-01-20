@@ -1,0 +1,13 @@
+1. Whaat happens when you turn on your computer
+	1. loads operating system into RAM
+	2. programs are a set of instructions executed by the microprocessor
+	3. instruction tells the microproessor what action to perform
+		Arithmetic logic operation
+		Read data from input device
+		Write to memory
+		Reset
+		Stop
+	4. Opcodes in assembly
+		Like ADD A, B, C
+		
+		Opcodes are 7 bit instruction for the microprocessor

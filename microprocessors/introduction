@@ -1,0 +1,34 @@
+Initial computers:
+	1. control unit,
+	2. ALU, <- I/o
+	3. Ram
+	
+Bell Labs invented transsistor in 1947 by william shockley
+	1. Replaced vacuum tubes
+	2. Smaller, cheaper, less heat, solid state, made from silicon
+	
+CPU in a chip -> microprocessors
+	1. It came inside microcomputers
+	2. Apple, Commodore, Intel
+	
+Intel 4004
+	1. Used for business calculations
+	2. 10 micrometre processors, 2300 in number
+	3. 400-800 khz
+	4. 4-bit word size
+	5 16-pin DIP package
+	6. Made from hand-cut masks
+
+Intel 8080, 8086/8088/Pentium
+
+Embedded systems
+	1. Microprocessor or microcontroller based system of hardware and software designed to perform dedicated functions within a largetr mechanical or electrical systems
+	Advantages
+		1. Improve performance
+		2. Reduce cost
+		3. Improve reliability
+		4. Added Network connectivity
+		
+Motherboard
+	1. Backbone of the system
+	2. Has ports to connect to cpu and memory, buses and connectors and ports
