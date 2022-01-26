@@ -1,0 +1,10 @@
+Just add in the data as shown in input.txt
+
+and follow the instructions that the program shows
+
+run 
+
+$ bash compile.sh 
+$ bash run.sh
+
+to run the code

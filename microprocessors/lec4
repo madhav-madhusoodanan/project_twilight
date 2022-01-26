@@ -1,0 +1,46 @@
+CISC: Complex instruction set computers
+RISC: Reduced instruction set computers
+
+RISC has only a few limited set of instructions. All other instructions are broken down into these basic instructions.
+
+Instruction pipeline
+	Fetch (get the instruction)
+	Decode (process it)
+	Execute (run it)
+	
+Eg: 	ADD r1, r2, r3 (r1 = r2 + r3)
+	SBR r2, r3, r2 (r2 = r3 - r2)
+	STR r2, b (b = r2)
+	
+The fetching unit of the Bus Interface Unit (BIU) is free after fetching
+So when the decoding is underway, the fetching unit can fetch anotehr instruction
+	This is called as pipelining
+	
+The example instruction set requires 9 cycles if each of the units worked only after a particular instruction was processed
+
+	IF1 -> ID1 -> IE1 -> IF2 -> ID2 -> IE2 -> IF3 -> ID3 -> IE3
+	
+With pipelining we can reduce that to 5.
+
+	IF1 -> ID1 -> IE1
+	       IF2 -> ID2 -> IE2
+		      IF3 -> ID3 -> IE3
+		 
+Flynn's taxonomy
+	1. Any computer can be classified into tese 4 types
+		Single/Multiple instruction and Single/Multiple data
+		(SISD SIMD MISD MIMD)
+		
+		SIMD -> single instruction but can work on multiple data
+		
+x86 family: 8080, 8086, 80286, 80386, 80486, Pentium, pentium 2, pentium 3, pentium 4
+
+
+32 bit processors
+	32 address lines
+		(They can add 32 bit numbers at a time)
+		
+	so they can process 2^32 memory locations (4gb)
+	
+	80486 over 80386: floating point operations + internal cache + 50 MIPS
+	Earlier versions requried co-processors to process floating point data
