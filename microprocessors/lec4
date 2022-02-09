@@ -44,3 +44,6 @@ x86 family: 8080, 8086, 80286, 80386, 80486, Pentium, pentium 2, pentium 3, pent
 	
 	80486 over 80386: floating point operations + internal cache + 50 MIPS
 	Earlier versions requried co-processors to process floating point data
+	
+CS, DS, ES, SS
+code: dsts, extra, stack segments

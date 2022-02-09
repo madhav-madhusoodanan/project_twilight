@@ -1,0 +1,36 @@
+select statement: 
+	denoted by sigma p (r)
+	where p is predicate
+	
+	sigma p (r) = {t | t E r and p(t)}
+	
+Projection
+	returns a relation with only the associated attributes
+	
+	
+Union operation: 
+	r U s = {t | t E r or t E s}
+	r must have same arity as s (same number of attributes)
+	attributes must be compatible
+	
+	
+Set difference: 
+	R - S = {t | t E R and t not E S}
+	
+Cartesian-product operation
+	R x S = {tq | t E R and q E S}
+	Assume that attributes of R and S are disjoint (interesection is null)
+	if attributes are not disjoint then renaming must be used
+	repeated attribute names are preceded by the table they originiated from
+	
+Set-intersection
+	R intersect S = {t | t E R and t E S}'
+	Not considered fundamental,
+	can be expressed as R - (R - S)
+	
+Natural Join
+	more like cartesian product 
+	but condition is that common attributes must be same
+	it is a subset of cartesian product
+	
+	Think of it as trying to match the jigsaw pieces and consolidating information about a particular tuple

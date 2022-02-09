@@ -1,0 +1,6 @@
+8086 has 16-bit ALU size (it can take two 16-bit nummbers and add them)
+
+Memory addressing
+	Real mode:
+		Access only 1mb of data
+		only 20 address lines required	
