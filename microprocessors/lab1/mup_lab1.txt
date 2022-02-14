@@ -1,0 +1,11 @@
+a
+mov ax,3c
+
+n lab1.txt
+l 0300
+g = 100 103
+a
+mov [0300] , al
+
+t
+d ds:0300
